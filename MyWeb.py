@@ -30,7 +30,7 @@ def download():
             c = 0
             for f in s3Files:
                 if file == f:
-                    c = 1;
+                    c = 1
             if c == 0:
                 return "file not found...."
             else:
@@ -51,7 +51,7 @@ def upload():
             c = 0
             for f in s3Files:
                 if file == f:
-                    c = 1;
+                    c = 1
             if c == 1:
                 return "file already exists. try other name"
             else:
